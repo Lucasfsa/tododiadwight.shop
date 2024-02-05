@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "rollup": "^4.9.6",
     "vue": "^3.4.15"
   },
   "devDependencies": {
@@ -18,5 +19,10 @@
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.11"
+  },
+  "overrides": {
+    "vite": {
+      "rollup": "npm:@rollup/wasm-node"
+    }
   }
 }

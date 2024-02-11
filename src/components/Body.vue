@@ -68,7 +68,7 @@ const products = [
             <div class="sm:max-w-lg"
             >
               <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Todo dia Dwight</h1>
-              <p class="mt-2 text-xl text-gray-500">Apoie este perfil através de uma doação ou adquirindo os itens colecionáveis disponíveis abaixo. Seu incentivo é importante!</p>
+              <p class="mt-2 text-xl text-gray-500">Apoie este perfil através de uma doação ou adquirindo os itens colecionáveis. O seu incentivo é importante!</p>
               <p class="mt-4 text-xl text-gray-500">Plataforma de apoio <u> <a target="_blank"  href="https://livepix.gg/tododiadwight" class="text-xl text-blue-500">Livepix →</a></u></p>
                 
             </div>

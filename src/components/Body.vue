@@ -5,56 +5,56 @@ const products = [
     name: 'Funko Dwight Schrute',
     href: 'https://shope.ee/8zgalsZ8Mc',
     source: 'Shopee - BR',
-    imageSrc: 'public/images/link1.jpg',
+    imageSrc: new URL('/public/images/link1.jpg', import.meta.url).href
   },
   {
     id: 2,
     name: 'Pocket Pop The Office',
     href: 'https://s.click.aliexpress.com/e/_DFLC953',
     source: 'Aliexpress - China',
-    imageSrc:  'public/images/link7.jpg',
+    imageSrc: new URL('/public/images/link7.jpg', import.meta.url).href
   },
   {
     id: 3,
     name: 'Caneca Dwight Schrute',
     href: 'https://shope.ee/7pUdNml1dY',
     source: 'shopee - BR',
-    imageSrc:  'public/images/link3.jpg',
+    imageSrc: new URL('/public/images/link3.jpg', import.meta.url).href
   },
   {
     id: 4,
     name: 'Funko Dwight Schrute ',
     href: 'https://shope.ee/7pUjntg1eC',
     source: 'Shopee - China',
-    imageSrc:  'public/images/link4.jpg',
+    imageSrc: new URL('/public/images/link4.jpg', import.meta.url).href
   },
   {
     id: 5,
     name: 'Posters The Office',
     href: 'https://s.click.aliexpress.com/e/_DEPOzpT',
     source: 'Aliexpress - China',
-    imageSrc:  'public/images/link5.jpg',
+    imageSrc: new URL('/public/images/link5.jpg', import.meta.url).href
   },
   {
     id: 6,
     name: 'Camisa Dwight Schrute',
     href: 'https://s.click.aliexpress.com/e/_DE14plL',
     source: 'Aliexpress - China',
-    imageSrc:  'public/images/link6.jpg',
+    imageSrc: new URL('/public/images/link6.jpg', import.meta.url).href
   },
   {
     id: 7,
     name: 'Caneca Gerente Assistente',
     href: 'https://shope.ee/3VLeDqezTs',
     source: 'Shopee - BR',
-    imageSrc:  'public/images/link2.jpg',
+    imageSrc: new URL('/public/images/link2.jpg', import.meta.url).href 
   },
   {
     id: 8,
     name: 'Chaveiros The Office',
     href: 'https://s.click.aliexpress.com/e/_DkR1TEl',
     source: 'Aliexpress - China',
-    imageSrc:  'public/images/link8.jpg',
+    imageSrc: new URL('/public/images/link8.jpg', import.meta.url).href
   },
   // More products...
 ]
@@ -101,9 +101,9 @@ const products = [
         <!-- <div class="flex justify-center">
             <img class="title-img" src="/public/logo.png">
         </div> -->
-        <hr class="mt-3">
+        <hr class="mt-5">
         <div class="flex justify-center mt-5">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 ">Itens colecionáveis</h1>
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 ">Colecionáveis</h1>
 
         </div>
 

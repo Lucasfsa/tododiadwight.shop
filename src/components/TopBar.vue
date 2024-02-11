@@ -4,10 +4,10 @@
    <div class="flex flex-wrap px-3">
     <div class="grid grid-cols-2 justify-items-center">
     <div>
-        <a class="text-xl text-black-500 hover:text-gray-500" href="#apoie" data-te-nav-link-ref>APOIE</a>
+        <a class="text-xl text-black-500 hover:text-gray-500" href="#apoie" data-te-nav-link-ref>Apoie</a>
     </div>
     <div>
-        <a class="text-xl text-black-500 hover:text-gray-500" href="#item" data-te-nav-link-ref>COLECIONÁVEIS</a>
+        <a class="text-xl text-black-500 hover:text-gray-500" href="#item" data-te-nav-link-ref>Colecionáveis</a>
     </div>
 
     <!-- Navigation links -->

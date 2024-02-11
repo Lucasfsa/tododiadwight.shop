@@ -8,7 +8,10 @@
 }
 
 nav a{
-  color: #000;
-  font-family: cursive;
+  color: #fdfdfd;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.topbar{
+  background-color: #453015;
+}

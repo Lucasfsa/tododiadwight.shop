@@ -9,24 +9,15 @@ import Body from './components/Body.vue'
 
 <template>
   <div>
-     <header class="flex items-center justify-center">
+     <header class="flex">
          <TopBar></TopBar>
      </header>
-     <!-- Body -->
-     <main class="flex flex-col md:flex-row m-2">
+     <main class="flex">
  
-       <div class="flex-none w-full md:w-14 h-14">
-         <RightBar />
-       </div>
-   
-       <div class="grow h-14 body">
+       <div class="w-full">
          <Body></Body>
        </div>
-   
-       <div class="flex-none w-full md:w-14 h-14">
-         <LeftBar />
-       </div> 
- 
+       
      </main>
 <!--  
      <footer>

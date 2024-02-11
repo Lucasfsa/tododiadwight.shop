@@ -1,9 +1,8 @@
 <script setup>
 import TopBar from './components/TopBar.vue'
-import Footer from './components/Footer.vue'
-import RightBar from './components/RightBar.vue'
-import LeftBar from './components/LeftBar.vue'
+
 import Body from './components/Body.vue'
+import { inject } from '@vercel/analytics';
 
 </script>
 
@@ -19,12 +18,9 @@ import Body from './components/Body.vue'
        </div>
        
      </main>
-<!--  
-     <footer>
-         <Footer></Footer>
-     </footer> -->
- 
   </div>
+
+  <inject></inject>
  </template>
  
 

@@ -5,56 +5,56 @@ const products = [
     name: 'Funko Dwight Schrute',
     href: 'https://shope.ee/8zgalsZ8Mc',
     source: 'Shopee - BR',
-    imageSrc: '/src/img/shopee/link1.jpg',
+    imageSrc: '/public/images/link1.jpg',
   },
   {
     id: 2,
     name: 'Pocket Pop The Office',
     href: 'https://s.click.aliexpress.com/e/_DFLC953',
     source: 'Aliexpress - China',
-    imageSrc:  '/src/img/aliexpress/link7.jpg',
+    imageSrc:  '/public/images/link7.jpg',
   },
   {
     id: 3,
     name: 'Caneca Dwight Schrute',
     href: 'https://shope.ee/7pUdNml1dY',
     source: 'shopee - BR',
-    imageSrc:  '/src/img/shopee/link3.jpg',
+    imageSrc:  '/public/images/link3.jpg',
   },
   {
     id: 4,
     name: 'Funko Dwight Schrute ',
     href: 'https://shope.ee/7pUjntg1eC',
     source: 'Shopee - China',
-    imageSrc:  '/src/img/shopee/link4.jpg',
+    imageSrc:  '/public/images/link4.jpg',
   },
   {
     id: 5,
     name: 'Posters The Office',
     href: 'https://s.click.aliexpress.com/e/_DEPOzpT',
     source: 'Aliexpress - China',
-    imageSrc:  '/src/img/aliexpress/link5.jpg',
+    imageSrc:  '/public/images/link5.jpg',
   },
   {
     id: 6,
     name: 'Camisa Dwight Schrute',
     href: 'https://s.click.aliexpress.com/e/_DE14plL',
     source: 'Aliexpress - China',
-    imageSrc:  '/src/img/aliexpress/link6.jpg',
+    imageSrc:  '/public/images/link6.jpg',
   },
   {
     id: 7,
     name: 'Caneca Gerente Assistente',
     href: 'https://shope.ee/3VLeDqezTs',
     source: 'Shopee - BR',
-    imageSrc:  '/src/img/shopee/link2.jpg',
+    imageSrc:  '/public/images/link2.jpg',
   },
   {
     id: 8,
     name: 'Chaveiros The Office',
     href: 'https://s.click.aliexpress.com/e/_DkR1TEl',
     source: 'Aliexpress - China',
-    imageSrc:  '/src/img/aliexpress/link8.jpg',
+    imageSrc:  '/public/images/link8.jpg',
   },
   // More products...
 ]
@@ -67,12 +67,10 @@ const products = [
           <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div class="sm:max-w-lg"
             >
-      
               <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Todo dia Dwight</h1>
-              <p class="mt-2 text-xl text-gray-500">Apoie este perfil através de uma doação ou adquirindo os itens colecionáveis disponíveis abaixo. Seu incentivo é crucial para manter a produção de conteúdo contínua e de qualidade!</p>
+              <p class="mt-2 text-xl text-gray-500">Apoie este perfil através de uma doação ou adquirindo os itens colecionáveis disponíveis abaixo. Seu incentivo é importante!</p>
               <p class="mt-4 text-xl text-gray-500">Plataforma de apoio <u> <a target="_blank"  href="https://livepix.gg/tododiadwight" class="text-xl text-blue-500">Livepix →</a></u></p>
-          
-              
+                
             </div>
             
             <div>
@@ -83,7 +81,7 @@ const products = [
                     <div class="flex items-center space-x-6 lg:space-x-8">
                     
                         <div class="h-4/5 w-4/5  overflow-hidden rounded-lg">
-                          <img src="/src/img/colation/colagem.jpeg" class="h-full w-full object-cover object-center" />
+                          <img src="/public/images/colagem.jpeg" class="h-full w-full object-cover object-center" />
                         </div>
               
                   
